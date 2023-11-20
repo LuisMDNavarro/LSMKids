@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" href="img/Logo.png" type="image/x-icon">
+    <title>LSMKids</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Logo">
+    </header>
+
+    <section>
+        <h1>¿Qué vamos a aprender hoy?</h1>
+
+        <div>
+            <button onclick="abc()" class="b1">Abecedario</button>
+            <button onclick="animals()" class="b2">Animales</button>
+        </div>
+
+        <div>
+            <button onclick="colors()" class="b3">Colores</button>
+            <button onclick="days()" class="b4">Semana</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; LSMKids</p>
+        <a href="https://www.conapred.org.mx/">CONAPRED</a>
+        <a href="https://www.conapred.org.mx/documentos_cedoc/DiccioSenas_ManosVoz_ACCSS.pdf">MANOS CON VOZ</a>
+        <a href="https://mexicana.cultura.gob.mx/es/repositorio/x2abesp3qm-4">LENGUA DE SEÑAS MEXICANA</a>
+        <a href="https://mexico.sil.org/es/lengua_cultura/lenguas-de-se%C3%B1as-en-m%C3%A9xico">SIL MÉXICO</a>
+    </footer>
+    <script>
+        function abc() {
+            window.location.href = 'abc.html';
+        }
+        function animals() {
+            window.location.href = 'animales.html';
+        }
+        function colors() {
+            window.location.href = 'colores.html';
+        }
+        function days() {
+            window.location.href = 'dias.html';
+        }
+    </script>
+</body>
+</html>

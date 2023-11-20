@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/temasCOL.css">
+    <link rel="icon" href="img/Logo.png" type="image/x-icon">
+    <title>LSMKids</title>
+</head>
+<body>
+    <header>
+        <img src="img/Flecha.png" class="back" alt="Atras" onclick="window.history.back()">
+        <img src="img/Logo.png" class="logo" alt="Logo">
+        <img src="img/Flecha.png" class="next" alt="Siguiente" onclick="next()">
+    </header>
+
+    <section>
+        <h1>¿Qué vamos a aprender hoy?</h1>
+
+        <div>
+            <button onclick="datos(this.id)"  id="1" class="b1">Amarillo</button>
+            <button onclick="datos(this.id)"  id="2" class="b1">Azul</button>
+            <button onclick="datos(this.id)"  id="3" class="b1">Verde</button>
+            <button onclick="datos(this.id)"  id="4" class="b1">Blanco</button>
+            <button onclick="datos(this.id)"  id="5" class="b1">Negro</button>
+            <button onclick="datos(this.id)"  id="6" class="b1">Naranja</button>
+        </div>
+
+        <div>
+            <button onclick="datos(this.id)"  id="7" class="b1">Bronce</button>
+            <button onclick="datos(this.id)"  id="8" class="b1">Cafe</button>
+            <button onclick="datos(this.id)"  id="9" class="b1">Gris</button>
+            <button onclick="datos(this.id)"  id="10" class="b1">Morado</button>
+            <button onclick="datos(this.id)"  id="11" class="b1">Oro</button>
+            <button onclick="datos(this.id)"  id="12" class="b1">Plata</button>
+        </div>
+
+        <div>
+            <button onclick="datos(this.id)"  id="13" class="b1">Rojo</button>
+            <button onclick="juego()"  id="14" class="b1 juego">Juego</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; LSMKids</p>
+        <a href="https://www.conapred.org.mx/">CONAPRED</a>
+        <a href="https://www.conapred.org.mx/documentos_cedoc/DiccioSenas_ManosVoz_ACCSS.pdf">MANOS CON VOZ</a>
+        <a href="https://mexicana.cultura.gob.mx/es/repositorio/x2abesp3qm-4">LENGUA DE SEÑAS MEXICANA</a>
+        <a href="https://mexico.sil.org/es/lengua_cultura/lenguas-de-se%C3%B1as-en-m%C3%A9xico">SIL MÉXICO</a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="js/appCOL.js"></script>
+</body>
+</html>

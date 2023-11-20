@@ -11,7 +11,7 @@ if(id == 8) {
     window.location.href = 'evaluacionDIA.html';
 }
 if(id < 8){
-    let imagen1 = `<img src="img/dias/${id}.PNG" class="letra">`;
+    let imagen1 = `<img src="img/dias/${id}.png" class="letra">`;
     let imagen2 = `<img src="img/diasS/${id}.png" class ="sena" >`;
 
     var letra = document.getElementById("letra");
